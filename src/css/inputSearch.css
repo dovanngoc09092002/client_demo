@@ -1,0 +1,104 @@
+.inputsearch_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+   
+}
+.inputsearch_input{
+    font-size: 16px;
+    flex: 1;
+    padding: 0px 20px;
+display: flex;
+align-items: center;
+
+    margin-left: 10px;
+    border: 1px solid #3bb7ff;
+    border-radius: 50px;
+
+}
+.inputsearch{
+width: 100%;
+
+padding: 20px ;
+}
+
+.inputsearch_footer{
+    justify-content: center;
+}
+.inputsearch_image{
+    padding: 10px 15px;
+ 
+    cursor: pointer;
+    font-size: 18px;
+}
+.puremodal_header{
+    width: 100%;
+    text-align: center;
+    color: #3bb7ff;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+.puremodal_button{
+     width: 100%;
+    text-align: center;
+   background: #3bb7ff;
+   color: #ddd;
+    font-size: 16px;
+    padding : 10px 0px;
+    border: none;
+    cursor: pointer;
+    transition:  all ease 0.2s;
+
+}
+.puremodal_button:hover{
+    background-color: #9cdae8;
+    color : #333;
+}
+.puremodal_button_noclick{
+    background-color: #333;
+    cursor: not-allowed;
+}
+.puremodal_button_noclick:hover{
+    background-color: #333;
+    cursor: not-allowed;
+    color: #ddd;
+}
+.puremodal_img{
+    width: 100%;
+
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PreviewImg{
+    cursor: pointer;
+    position: absolute;
+    left: 36%;
+
+}
+
+.puremodal_input{
+    font-size: 16px;
+outline: none;
+    padding: 0px 20px;
+display: flex;
+align-items: center;
+    border: 1px solid #3bb7ff;
+    border-radius: 50px;
+    padding: 5px 4px;
+    width: 100%;
+}
+
+.loading_post {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #3bb7ff;
+    display: flex;
+    align-items: center;
+}

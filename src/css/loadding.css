@@ -1,0 +1,15 @@
+.loaddinginpage{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999999999;
+    background-color: #0077cc; /* Màu xanh dương */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Hiệu ứng bóng mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    opacity: 0.5;
+}

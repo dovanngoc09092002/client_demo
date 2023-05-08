@@ -1,0 +1,84 @@
+
+.homepage_post_video{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.homepage_suggest{
+
+max-height: 500px;
+
+}
+
+.videotin_item{
+    padding: 10px;
+    position: relative;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.videotin_item_img{
+    width: 16.66666%;
+    height: 220px;
+    cursor: pointer;
+}
+.videotin_item_img_sub{
+   
+    opacity: 0.7;
+    transition:  all ease-in 0.25s;
+}
+.videotin_item_img_sub:hover{
+    opacity: 1;
+}
+.avatarInVideoItem{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 1000;
+    top: 15px;
+    left: 15px;
+    border-radius: 50px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.videotin_item_footer{
+    text-align: center;
+    background-color: #3bb7ff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 50px;
+    color: #564646;
+    font-weight: 500;
+}
+.videotin_item_footer_sub{
+    background-color: #71c6f7;
+
+}
+
+.search_inhome{
+    width: 100%;
+}
+
+
+
+.abc_sticky{
+    position: sticky;
+    top: 44px;
+    padding: 5px;
+
+}
+
+.btn_tincuaban{
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-size: 17px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all ease-in-out 0.2s;
+  border: none;
+}
+
+.btn_tincuaban:hover{
+    padding: 12px 0px;
+    font-size: 18px;
+}

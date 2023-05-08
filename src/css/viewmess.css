@@ -1,0 +1,17 @@
+.viewlateMess{
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 0px;
+}
+.viewlateMess_content_name{
+    color: #000;
+     font-size: 17px;
+}
+.viewlateMess_content_text{
+ color: #777;
+     font-size: 14px;
+}
+.viewlateMess_content{
+    padding: 0px 15px;
+   
+}

@@ -1,0 +1,102 @@
+.mess{
+    min-height: 550px;
+    margin: 50px 0px;
+    
+}
+.mess_friend_body{
+    max-height: 355px;
+    overflow-y: auto;
+}
+.mess_friend{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+/* height: 100%; */
+}
+.mess_body{
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+margin: 0px 5px;
+
+/* height: 100%; */
+}
+.mess_infor{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+text-align: center;
+/* height: 100%; */
+}
+.mess_friend_header{
+    padding: 5px;
+    align-items: center;
+}
+.mess_friend_input{
+    font-size: 17px;
+    width: 90%;
+    padding: 10px 5px;
+    outline:  none;
+    border: 2px solid #3bb7ff;
+    border-radius: 15px;
+}
+.mess_friend_item{
+    cursor: pointer;
+}
+
+.mess_body_header{
+    align-items: center;
+    height: 70px;
+   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 0px 10px;
+}
+.mess_body_header_avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.mess_body_header_name{
+    text-align: center;
+}
+.mess_body_header_infor{
+    text-align: right;
+   padding-right: 10px;
+   font-size: 18px;
+   color: #3bb7ff;
+   cursor: pointer;
+}
+.mess_infor_trangcanhan{
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.mess_infor_trangcanhan:hover{
+    color: #3bb7ff;
+}
+.mess_body{
+    position: relative;
+}
+.mess_body_footer{
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    position: absolute;
+   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    bottom: 0;
+
+}
+
+.mess_body_footer_input{
+    padding: 10px 8px;
+    outline:  none;
+    border:  1px solid #3bb7ff;
+}
+
+.mess_body_content {
+    max-height: 410px;
+    overflow: scroll;
+}
+
+.mess_body_content::-webkit-scrollbar {
+  width: 3px; /* chiều rộng của thanh cuộn */
+}
+
+.mess_body_content::-webkit-scrollbar-thumb {
+  background-color: #3bb7ff; /* màu sắc của thanh cuộn */
+}

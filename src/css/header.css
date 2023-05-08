@@ -1,0 +1,160 @@
+.header {
+    position: fixed;
+    min-height: 90px;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    /* background: red; */
+    z-index: 100000;
+    background: #fff;
+}
+.header span{
+  padding: 10px 20px;
+}
+.header span:hover{
+  border-bottom : 3px solid #1faafb;
+}
+.header span:hover a{
+color: #0067a2;
+}
+.header a{
+    color: #1faafb;
+    font-weight: 600;
+    transition: all ease-in-out 0.5s;
+}
+.header_logo{
+background: url("../img/LOGOMEMORY.png") no-repeat center center; 
+background-size: contain;
+height: 80px;
+
+}
+.header_search{
+    display: flex;
+}
+.header_search_post {
+    padding: 10px;
+    outline: none;
+    border: 2px solid #1faafb;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.modal_profile {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    position: absolute;
+    top: 75px;
+    right: 65px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.modal_profile_header{
+  display: flex;
+  align-items: center;
+}
+.modal_profile_header_img{
+  width: 50px;
+  margin-right: 20px;
+}
+
+.modal_profile_item{
+  color: #000;
+  cursor: pointer;
+  /* border: 1px solid #222; */
+  padding: 15px 8px;
+  font-size: 18px;
+  
+
+}
+.modal_profile_item:hover{
+      background-image: linear-gradient(120deg, #72a0eb 10%, #c2e9fb 100%);
+
+}
+.modal_profile_item a {
+  color: #000;
+}
+
+.btn_edit_personel {
+    padding: 12px;
+    background: #2985ba;
+    color: #ddd;
+    width: 210px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+.btn_edit_personel:hover{
+    background: #76bee7;
+    color: #333;
+
+
+}
+
+.header_avatar_icon_mess{
+  align-items: center;
+  position: relative;
+}
+
+.icon_notify_number{
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  left: 20px;
+  background-color: rgb(242, 67, 67);
+  color: #ddd;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
+.modal_profile.box {
+    z-index: 9999999999;
+    position: fixed;
+}
+/* tippy */
+
+.box_message{
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: absolute;
+
+}
+.tippy-box[data-placement^=bottom]>.tippy-arrow:before {
+    top: -7px;
+    left: -32px !important;
+    border-width: 0 8px 8px;
+    border-bottom-color: initial;
+    transform-origin: center bottom;
+}
+.hyhy .tippy-box{
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) !important;
+  max-height: 367px;
+  overflow-y: auto;
+  min-height: 170px;
+  min-width: 200px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3bb7ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3bb7ff;
+}
+.tippy-arrow {
+  
+    color: rgb(128, 156, 218) !important;
+}
+.box_search{
+  top: 70px;
+  padding: 5px;
+  width: 270px;
+background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

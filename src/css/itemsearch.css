@@ -1,0 +1,6 @@
+.itemSearch{
+    padding: 5px 5px 0px 5px;
+    align-items: center;
+    cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}

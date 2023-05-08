@@ -1,0 +1,77 @@
+.createVideo{
+    height: 80vh;
+    margin: 20px 0px;
+}
+.createVideo_avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.creatte_anhdaihien{
+    align-items: center;
+    justify-content: center;
+}
+.creatte_anhdaihien span{
+    margin-left: 10px;
+}
+.createVideo_btn{
+    padding: 12px 12px;
+
+    text-align: center;
+    color: #ddd;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+/* .createVideo_btn:hover{
+    background-color: #54b3eb;
+    color: #333;
+} */
+.createVideo_menu{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.createVideo_content{
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 50px;
+}
+.createVideo_content_video{
+    padding: 10px;
+   cursor: pointer;
+    background : #3bb7ff;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 100px;
+    padding: 200px 0px;
+    transition: all ease 0.2s;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.createVideo_content_video:hover{
+    background-color: #83c1e5;
+}
+.createVideo_content_video_sub{
+    background-color: #2678a8;
+}
+.icon_in_create_video{
+    font-size: 30px;
+}.react-player.fl1 {
+    width: 100%;
+    height: auto !important;
+ 
+}
+.previewinvideo{
+      box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 20px;
+}
+.sub_edit_video{
+    margin: 10px 0px;
+    padding: 10px 8px;
+    cursor: pointer;
+    transition:  all ease 0.2s;
+}
+.sub_edit_video:hover{
+    font-size: 18px;
+    color: #3bb7ff;
+}

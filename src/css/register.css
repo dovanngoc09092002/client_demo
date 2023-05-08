@@ -1,0 +1,13 @@
+.submit_register{
+  color: #333 !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all ease-in 0.2s;
+
+}
+.submit_register:hover{
+  color: #ddd !important;
+  font-size: 16px;
+  font-weight: 500;
+
+}

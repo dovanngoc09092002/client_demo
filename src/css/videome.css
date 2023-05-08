@@ -1,0 +1,54 @@
+.videome{
+    /* min-height: 80vh; */
+    padding: 100px 0px;
+}
+
+
+/* .videome .react-player{
+    height: 100% !important;
+} */
+
+.videome_box{
+    height: 100%;
+}
+
+
+.btn_video{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    /* background: red; */
+    font-size: 50px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.icon_video{
+    margin: 0px 10px;
+    color: #3bb7ff;
+}
+
+.updateforvideo{
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: #1371a7;
+background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.item_update_video{
+ border: 1px solid #70adde;
+    padding: 10px;
+}
+.btn_loadding{
+    align-items: center;
+    justify-content: space-between;
+}
+.chuacovideo{
+    min-height:80vh ;
+    width: 30%;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: center;
+}
