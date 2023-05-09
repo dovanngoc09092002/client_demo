@@ -123,7 +123,7 @@ function Header() {
       })
       .then((data) => {
         console.log("log out ...");
-        console.log(data);
+        // console.log(data);
         if (data.data.isLogout === true) {
           delete_cookie("token");
           navigate("/login");
@@ -193,29 +193,37 @@ function Header() {
                   navigate("/makefriends");
                 }}
               >
-                <FontAwesomeIcon
-                  style={{
-                    fontSize: "30px",
-                    color: "#3bb7ff",
-                    cursor: "pointer",
-                  }}
-                  icon={faEnvelope}
-                />
+                <Tippy
+                  content="Lời mời kết bạn"
+                  placement="right-end"
+                  zIndex={908231094840324}
+                >
+                  <FontAwesomeIcon
+                    style={{
+                      fontSize: "30px",
+                      color: "#3bb7ff",
+                      cursor: "pointer",
+                    }}
+                    icon={faEnvelope}
+                  />
+                </Tippy>
               </div>
 
               <div className="fl1">
-                <FontAwesomeIcon
-                  onClick={handleToggle}
-                  style={{
-                    fontSize: "30px",
-                    cursor: "pointer",
-                    color: "#3bb7ff",
-                    position: "relative",
-                  }}
-                  icon={faMessage}
-                >
-                  {" "}
-                </FontAwesomeIcon>
+                <Tippy content="Nhắn tin" placement="right-end" zIndex={908231094840324} borderRadius = "none">
+                  <FontAwesomeIcon
+                    onClick={handleToggle}
+                    style={{
+                      fontSize: "30px",
+                      cursor: "pointer",
+                      color: "#3bb7ff",
+                      position: "relative",
+                    }}
+                    icon={faMessage}
+                  >
+                    {" "}
+                  </FontAwesomeIcon>
+                </Tippy>
                 <div className="hyhy">
                   <Tippy
                     visible={isOpen}

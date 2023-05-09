@@ -119,6 +119,7 @@ function Home() {
         withCredentials: true,
       })
       .then((data) => {
+        console.log("this is data" , data);
         setNoneFriends([...data.data.noneFriends]);
       });
   }, [render]);

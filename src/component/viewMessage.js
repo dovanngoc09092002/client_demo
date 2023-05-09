@@ -27,7 +27,7 @@ function ViewMessage({ mess, check }) {
         </div>
         <div className="viewlateMess_content_text fl">
           <div className="fl1">
-            {check ? "Bạn :" : mess.usersender.name + " :"} {mess.content}{" "}
+            {check ? "Bạn :" : mess.usersender.name + " :"} {mess.content.slice(0, 8)}...{" "}
           </div>
           <FontAwesomeIcon style={{ paddingLeft: "50px" }} icon={faUserGroup} />
         </div>

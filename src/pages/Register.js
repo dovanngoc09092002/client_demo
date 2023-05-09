@@ -6,10 +6,11 @@ import { useNavigate } from "react-router-dom";
 import ReactJsAlert from "reactjs-alert";
 import "../css/register.css";
 import { getCookie } from "../cookie";
+import { ColorRing } from "react-loader-spinner";
 
 function Register() {
   let navigate = useNavigate();
-
+  const [isloadding, setIsloadding] = useState(false);
   const token = getCookie("token");
   useEffect(() => {
     if (token) {
@@ -25,12 +26,13 @@ function Register() {
   });
 
   const validationSchema = Yup.object().shape({
-    username: Yup.string().min(5).max(15),
-    password: Yup.string().min(5).max(15),
-    name: Yup.string().min(5).max(10),
+    username: Yup.string().min(5).max(15000),
+    password: Yup.string().min(5).max(15000),
+    name: Yup.string().min(5).max(10000),
   });
 
   const onSubmit = (data) => {
+    setIsloadding(true);
     setInitialValues({
       username: "",
       password: "",
@@ -40,6 +42,8 @@ function Register() {
       .post("https://api-ngoc.onrender.com/user/register", data)
       .then((response) => {
         if (response.data.errCode === 0) {
+          setIsloadding(false);
+
           navigate("/login");
         }
         if (response.data.errCode === 1) {
@@ -84,6 +88,20 @@ function Register() {
               {" "}
               Đăng Ký
             </button>
+            {isloadding && (
+              <div style={{ textAlign: "center" }}>
+                {" "}
+                <ColorRing
+                  visible={true}
+                  height="80"
+                  width="80"
+                  ariaLabel="blocks-loading"
+                  wrapperStyle={{}}
+                  wrapperClass="blocks-wrapper"
+                  colors={["#ddd", "#fff", "#fff", "#fff", "#fff"]}
+                />{" "}
+              </div>
+            )}
           </Form>
         </Formik>
       </div>
